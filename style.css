@@ -94,7 +94,7 @@ body, ul {
       align-items:center;
     }
     a {
-        color: #000; /* Set the color for all link states */
+        color:white; /* Set the color for all link states */
         text-decoration: none; /* Remove underlines from links */
       }
       
