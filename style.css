@@ -123,6 +123,6 @@ body, ul {
     transform: translateY(-100vh); /* Start position (above the viewport) */
   }
   100% {
-    transform: translateY(200vh); /* End position (below the viewport) */
+    transform: translateY(400vh); /* End position (below the viewport) */
   }
 }
