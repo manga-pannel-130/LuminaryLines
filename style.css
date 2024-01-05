@@ -52,7 +52,7 @@ body, ul {
   /* Blog-specific styles */
   .blog-posts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr)); /* Adjust minmax values */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Adjust minmax values */
     gap: 20px;
     
   }
