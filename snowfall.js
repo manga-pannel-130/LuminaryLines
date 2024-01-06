@@ -8,7 +8,7 @@ function createSnowflakes() {
     snowflake.className = "snowflake";
     snowflake.innerHTML = "&#10052;"; // Snowflake character
     snowflake.style.left = `${Math.random() * 100}vw`; // Random horizontal position
-    snowflake.style.animationDuration = `${1 + Math.random() * 3}s`; // Random animation duration
+    snowflake.style.animationDuration = `${8 + Math.random() * 12}s`; // Random animation duration
     snowflake.style.animationDelay = `${-Math.random() * 5}s`; // Random animation delay
     snowflake.style.top = `-${Math.random() * headerHeight}px`; // Start snowflakes above the header
     document.body.appendChild(snowflake);
